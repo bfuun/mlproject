@@ -37,7 +37,7 @@ if predict_button:
     X_array = scaler.transform([np.array(X)])
     prediction = model.predict(X_array)
     
-    st.success(f' Predicted Salary : ^^$(prediction[0]:,.2f)^^')
+    st.success(f"Predicted Salary : ${prediction[0]:,.2f}")
     
     df_layout = pd.DataFrame({
         "Feature": ["Years at company", "Satisfaction Level", "Average Monthly Hours"],
