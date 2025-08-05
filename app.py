@@ -40,11 +40,11 @@ if predict_button:
     st.success(f' Predicted Salary : ^^$(prediction[0]:,.2f)^^')
     
     df_layout = pd.DataFrame({
-        "Feature" : ["Years at company", "Satisfaction Level", "Average Monthly Hours"],
-        "Value" : X
+        "Feature": ["Years at company", "Satisfaction Level", "Average Monthly Hours"],
+        "Value": X
     })
     
-    fig = px.bar(df_input, x = "Feature", y = "Value", color = "Feature", title = " Your Input  Profile", test_auto = True)
+    fig = px.bar(df_layout, x = "Feature", y = "Value", color = "Feature", title = " Your Input  Profile", test_auto = True)
     st.plotly_chart(fig, use_container_width = True)
  
 else:
