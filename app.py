@@ -24,8 +24,8 @@ with col3:
      
 X = [years_at_company, satisfaction_level, average_monthly_hours]
 
-scaler = joblib.load("scaler.plk")
-model = joblib.load("model.plk")
+scaler = joblib.load("scaler.pkl")
+model = joblib.load("model.pkl")
 
 predict_button = st.button(" Predict Salary ")
 
