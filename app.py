@@ -7,7 +7,7 @@ st.set_page_config(page_title = "Salary Satisfaction App", layout = "wide")
 st.title(" Salary Estimation App ")
 st.markdown("#### Predict your expected salary based on company experience!")
 
-st.image(r'\C:\Users\Admin\OneDrive\Pictures\woman-falling-money-5370748.webp', caption = "Let's Predict", use_container_width=True)
+st.image("https://github.com/bfuun/mlproject/blob/main/woman-falling-money-5370748.webp", caption = "Let's Predict", use_container_width=True)
 
 st.divider()
 
