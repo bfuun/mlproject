@@ -7,7 +7,7 @@ st.set_page_config(page_title = "Salary Satisfaction App", layout = "wide")
 st.title(" Salary Estimation App ")
 st.markdown("#### Predict your expected salary based on company experience!")
 
-st.image("https://www.google.com/imgres?q=meme%20dog&imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Faf%2F23%2F0d%2Faf230dc0fda2e962661e1c1239230eac.jpg&imgrefurl=https%3A%2F%2Fuk.pinterest.com%2Fpin%2F651685008567123768%2F&docid=Cr9mMnP_zSnTWM&tbnid=eixmKZ2WpgQmlM&vet=12ahUKEwicupOM6_KOAxVsT2wGHZ4nKpwQM3oECBoQAA..i&w=640&h=480&hcb=2&ved=2ahUKEwicupOM6_KOAxVsT2wGHZ4nKpwQM3oECBoQAA", caption = "Let's Predict", use_container_width=True)
+st.image("C:\Users\Admin\OneDrive\Pictures\woman-falling-money-5370748.webp", caption = "Let's Predict", use_container_width=True)
 
 st.divider()
 
